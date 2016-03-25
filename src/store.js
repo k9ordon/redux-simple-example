@@ -19,5 +19,3 @@ let emptyReducer = function(state, action) {
 };
 
 export let store = createStore(Item_Reducer, initialState);
-
-window.store = store;
